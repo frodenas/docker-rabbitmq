@@ -4,7 +4,7 @@ A Dockerfile that produces a Docker Image for [RabbitMQ](https://www.rabbitmq.co
 
 ## RabbitMQ version
 
-The `master` branch currently hosts RabbitMQ 3.3.
+The `master` branch currently hosts RabbitMQ 3.5.
 
 Different versions of RabbitMQ are located at the github repo [branches](https://github.com/frodenas/docker-rabbitmq/branches).
 
