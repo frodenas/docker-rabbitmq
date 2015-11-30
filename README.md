@@ -45,6 +45,7 @@ You will see an output like the following:
 ========================================================================
 RabbitMQ User: "rabbitmq"
 RabbitMQ Password: "8psfzXmp6t23rKr6"
+RabbitMQ Virtual Host: "/"
 ========================================================================
 ```
 
@@ -54,6 +55,7 @@ If you want to preset credentials instead of a random generated ones, you can se
 
 * `RABBITMQ_USERNAME` to set a specific username
 * `RABBITMQ_PASSWORD` to set a specific password
+* `RABBITMQ_VHOST` to set a specific Virtual Host
 
 On this example we will preset our custom username and password:
 
@@ -63,6 +65,7 @@ $ docker run -d \
     -p 5672:5672 \
     -e RABBITMQ_USERNAME=myusername \
     -e RABBITMQ_PASSWORD=mypassword \
+    -e RABBITMQ_VHOST=myvhost \
     frodenas/rabbitmq
 ```
 
